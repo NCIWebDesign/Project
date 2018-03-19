@@ -1,0 +1,190 @@
+/*navigation bar*/
+/*body{
+	width: 1180px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: sticky;
+    top: 150px;
+    width: 100%;
+}
+
+li{
+	float: left;
+	width: 25%;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5% 10%;
+	text-decoration: none;
+}
+
+li a.active {
+    background-color: #B2B6B4;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
+}
+
+.contact{
+	color: black;
+	display: block;
+	background-color: #FED728;
+}
+/*backgrouns scroll image*/
+#imagescroller {
+    background-image:
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*brand bar*/
+
+#logo{
+	float: left;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+
+}
+#imagescroller{
+	width: 100%;
+	height: auto;
+}
+
+#contactinfo{
+	float: right;
+	margin-right: 15%;
+	margin-left: 70px;
+	margin-top: 15px;
+}
+
+.intro {
+	clear: both;
+	text-align: center;
+}
+.intro p{
+	margin-left: 10%;
+	margin-right: 10%; 
+}
+
+#USP{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.icon{
+	float: left;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.icon img{
+	width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  clear: both;
+  align-items: stretch;;
+}
+
+.flex-container .flex-container-item {
+  background-color: #4D4C4E;
+  color: white;
+  margin: 0;
+  text-align: center;
+  line-height: 2.5em;
+  flex-grow: 1;
+  flex: 1;
+  min-height:400px;
+}
+.flex-container-item p{
+	font-size:1em;
+}
+
+
+/* section for testimonials*/
+.testimonial{
+	clear: both;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.testimonial {
+	clear: both;
+	text-align: center;
+}
+.testimonial p{
+	margin-left: 2.5%;
+	margin-right: 5%; 
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#quotes{
+	display: flex;
+  clear: both;
+  align-items: stretch;;
+}
+.quote{
+	border: 2px #4D4C4E solid;
+	border-radius: 30px;
+	margin: 5%;
+	text-align: center;
+	line-height: 2.5em;
+	flex-grow: 1;
+	flex: 1;
+	
+
+}
+
+.quote img{
+	border: solid black 2px;
+	border-radius:50%;
+	width: 50%;
+}
+#foot{
+	clear:both;
+	width:100%;
+	background-color: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
