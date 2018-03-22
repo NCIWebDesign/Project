@@ -1,0 +1,108 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'Ariel';
+}
+#CompanyLogo{
+ 	float: left;
+ 	margin-left: 50px;
+ 	margin-right: 70px;
+ 	width: 28%;
+ 	height: auto;
+ 	 }
+ 
+ #CompanyContactInfo{
+ 	float: right;
+ 	clear: right;
+ 	height: auto;
+ 	 }
+ .nav{
+ 	background-color:#595959;
+ 	color:#FFFFFF;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding:20px 0 20px 0;
+ }
+ .nav li{
+ 	display: inline-block;
+ 	padding-right:50px;
+ }
+ .nav li a{
+ 	text-decoration: none;
+ 	color:#FFFFFF;
+ }
+ .nav li a:hover{
+ 	color: #C1C1C1;
+ }
+/* Main content below header*/
+
+.index-banner{
+	width:100%;
+	height:100px;
+	color:black;
+}
+.index-banner h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:black;
+	text-align:center;
+}
+.index-banner h2{
+	font-size: 30px;
+	font-weight:100;
+	color:black;
+	text-align:center;
+}
+p{
+	font-size:16px;
+	font-weight:100;
+	color:;
+	float:right;
+}
+#image{
+	width:24px;
+	height:24px;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+.questions{
+	width:100%;
+	height:100%;
+	color:black;
+}
+.questions h1{
+	font-size:45px;
+	font-weight: 700;
+	margin:20px;
+	color:black;
+	text-align: left;
+}
+.question li{
+	list-style: none;
+	text-align: left;
+}
+.question li a{
+	text-indent: 4px;
+}
+.footer{
+ 	background-color:#595959;
+ 	color:#FFFFFF;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding:20px 0 20px 0;
+ }
+ .footer li{
+ 	display: inline-block;
+ 	padding-right:50px;
+ }
+ .footer li a{
+ 	text-decoration: none;
+ 	color:#FFFFFF;
+ }
+ .footer li a:hover{
+ 	color: #C1C1C1;
+ }
