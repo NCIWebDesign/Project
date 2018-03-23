@@ -16,46 +16,69 @@ body{
  	clear: right;
  	height: auto;
  	 }
- .nav{
+ header nav{
  	background-color:#595959;
  	color:#FFFFFF;
  	list-style:none;
  	text-align: center;
  	padding:20px 0 20px 0;
  }
- .nav li{
+ul{
+	margin:0;
+	padding:0;
+}
+ header nav li{
  	display: inline-block;
  	padding-right:50px;
  }
- .nav li a{
+ header nav li a{
  	text-decoration: none;
  	color:#FFFFFF;
  }
- .nav li a:hover{
+ header nav li a:hover{
  	color: #C1C1C1;
- }
-/* Main content below header*/
+ } 
+ 
+/* Main headings below header*/
 
-.index-banner{
-	width:100%;
-	height:100px;
-	color:black;
+.container{
+	min-height:400px;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+	color:#FFFFFF;
 }
-.index-banner h1{
+.container h1{
 	font-size:60px;
 	font-weight:900;
 	margin:20px;
 	color:black;
 	text-align:center;
 }
-.index-banner h2{
+.container h2{
 	font-size: 30px;
 	font-weight:100;
 	color:black;
 	text-align:center;
 }
-p{
-	font-size:16px;
+/*Content with photos under heading*/
+
+.maincontent h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:black;
+	text-align:center;
+}
+.maincontent h2{
+	font-size: 30px;
+	font-weight:100;
+	color:black;
+	text-align:center;
+}
+.maincontent p{
+	font-size:20px;
 	font-weight:100;
 	color:;
 	float:right;
@@ -69,6 +92,7 @@ p{
 	border:solid black 10px;
 	padding:2px;
 }
+/*Frequently asked questions section*/
 .questions{
 	width:100%;
 	height:100%;
