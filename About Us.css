@@ -83,7 +83,7 @@ ul{
 	color:;
 	float:right;
 }
-#image{
+.maincontent #image{
 	width:24px;
 	height:24px;
 	float:left;
@@ -130,3 +130,16 @@ ul{
  .footer li a:hover{
  	color: #C1C1C1;
  }
+.footer #CompanyLogo{
+ 	float: left;
+ 	margin-left: 30px;
+ 	margin-right: 40px;
+ 	width: 28%;
+ 	height: auto;
+ 	 }
+header{
+	padding-bottom:20px;
+}
+.container h1{
+	margin-top:40px;
+}
