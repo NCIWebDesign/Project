@@ -1,0 +1,209 @@
+﻿/* Timothy Bergin 
+   Form Submission Web Page 
+   in HTML
+ */ 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title1>Wood Bees Form Page</title1>
+
+<link rel="stylesheet" href=“FormWebPageCSS.css"> 
+
+</head>
+<body>
+
+ <div id="header"
+
+    <div><img id="CompanyLogo" img src="Images\Logo.jpg"</div>
+
+    <div id="CompanyContactInfo">
+
+      <p>Telephone - 06656985</p>
+
+      <p>Email: WoodBeeDesigns@gmail.com</p>
+
+  </div>
+
+    <nav>
+
+      <ul>
+
+        <li><a href="homepage.asp">HOME</a></li>
+
+    	<li><a href="information.asp">ABOUT US</a></li>
+
+    	<li><a href="products.asp">FURNITURE</a></li>
+
+    	<li><a class="contact" href="contact.asp">CONTACT</a></li>
+
+	  </ul>
+
+    </nav>
+
+
+
+
+<div class="OpeningHeader">
+
+ Welcome to our Form Page. 
+ </div> 
+
+
+
+
+
+<div class="mypara"> 
+     
+	 <div ="FormTitle"> Our Form </div> 
+	 
+	 This is our form page. This page allows you to enter your information 
+     in order for us to quickly communicate and fulfill potential orders 
+     that any users may request. There are eight sections in our form which
+	 can be completed and submitted. There is also a separate inquiry section 
+     where you can enter your comments and ask questions and they will respond 
+	 to you in prompt fashion, thank you. 	 
+
+</div>
+
+  <div><img id="Wood Bees Hand Crafted Workmanship" img src="Wood Bees Hand Craftmanship.jpg"</div> 
+
+
+ <div="CompanyForm"> 
+<form>
+	<table> 
+	 
+	 <form action="action_page.php">
+	 Enter Name:<br>
+     <input type="text" name="entername"><br> 
+	 
+	 Enter Address:<br>
+     <input type="text" name="enteraddress"><br>
+	 
+	 Enter Phone Number:<br>
+     <input type="text" name="enterphonenumber"><br>
+	 
+	 
+	 Method of Contact:<br> 
+	 <button type="Phone" onclick="alert('You have chosen to be contacted by Phone!')">Click Me!</button><br> 
+	 <button type="Email" onclick="alert('You have chosen to be contacted by Email!')">Click Me!</button><br> 
+	 
+	 Type of Fittings:<br> 
+	 <select name="Types of Fittings"><br>
+     <option value="Kitchen Furniture">Kitchen Furniture</option><br>
+     <option value="Kitchen Accessories">Kitchen Accessories</option><br>
+     <option value="General Furniture">General Furniture</option><br>
+     <option value="General Accessories">General Accessories</option><br> 
+
+	 List of Time Slots:<br> 
+	 <select name="List of Time Slots"><br>
+	 <option value="9:00am to 10:00am">9:00am to 10:00am</option><br> 
+	 <option value="10:00am to 11:00am">10:00am to 11:00am</option><br>
+	 <option value="9:00am to 12:00am">11:00am to 12:00pm</option><br>
+     <option value="9:00am to 10:00am">12:00pm to 1:00pm</option><br> 
+     <option value="9:00am to 10:00am">1:00pm to 2:00pm</option><br> 
+	 <option value="9:00am to 10:00am">2:00pm to 3:00pm</option><br> 
+	 <option value="9:00am to 10:00am">3:00pm to 4:00pm</option><br> 
+	 <option value="9:00am to 10:00am">4:00pm to 5:00pm</option><br> 
+     <option value="9:00am to 10:00am">5:00pm to 6:00pm</option><br> 
+	 
+	 Where Did You Hear About Us?: <br> 
+	 <select name="List of Information Sources"><br> 
+     <option value="Word of Mouth">Word of Mouth</option><br> 
+	 <option value="Social Media">Social Media</option><br> 
+	 <option value="Newspaper">Newspaper</option><br> 
+	 <option value="Magazines or other Print Media">Magazines or other Print Media</option><br> 
+	 
+     Additional Information:<br> 
+	 <input type="text" name="enter any additional information"><br> 
+	 
+	 <input type="submit" value="Submit">
+	 
+</select> 
+</form> 
+</table> 
+</form> 
+
+
+</div> 
+
+<div="CompanyMap"> 
+
+<style>
+       #map {
+        height: 400px;
+        width: 50%;
+        a
+	   }
+    </style>
+  </head>
+  <body>
+    
+	<h1>Directions to the Workshop</h1>
+    <p2 class=“p”>My paragraph</p2> 
+	<div id="map"></div>
+    
+	<script>
+      function initMap() {
+        var Waterford, Ireland = {lat: 52° 05' 37" N, lang: -7° 59' 08" W};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          right: =Waterford
+        });
+        var marker = new google.maps.Marker({
+          position: Waterford,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+    </script>
+
+
+</div>
+
+<div="CompanyAddress">
+      An Rinn, 
+      County Waterford,
+      Ireland.
+</div>
+
+</div="InvitationtoEnterQuestionsandComments"> 
+       If you would like to ask us any questions 
+	   or comments, please do not hesitate to inquire 
+	   or comment in this a text box below.
+</div> 
+
+
+
+<div="InquiryBoxSubmission"> 
+      <form action="action_page.php">
+	   Enter Questions or Comments:<br>
+      <input type="text" name="Questions or Comments"><br> 
+      <input type="submit" value="Submit">
+      </form>
+</div>
+
+	  <!-- Closing Footer -->
+
+<nav>
+
+  <ul>
+
+     <li><a href="homepage.asp">HOME</a></li>
+
+	 <li><a href="information.asp">ABOUT US</a></li>
+
+  	 <li><a href="products.asp">FURNITURE</a></li>
+
+  	 <li><a class="contact" href="contact.asp">CONTACT</a></li>
+
+ </ul>
+
+</nav>
+
+
+</body>
+</html> 
