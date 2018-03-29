@@ -1,7 +1,8 @@
 body{
 	margin:0;
 	padding:0;
-	font-family:'Ariel';
+	font-family:'raleway';
+	font-size: 1.5em;
 }
 #CompanyLogo{
  	float: left;
@@ -17,7 +18,7 @@ body{
  	height: auto;
  	 }
  header nav{
- 	background-color:#595959;
+ 	background-color:#4D4C4E;
  	color:#FFFFFF;
  	list-style:none;
  	text-align: center;
@@ -53,13 +54,13 @@ ul{
 	font-size:60px;
 	font-weight:900;
 	margin:20px;
-	color:black;
+	color:#0C0C0C;
 	text-align:center;
 }
 .container h2{
 	font-size: 30px;
 	font-weight:100;
-	color:black;
+	color:#0C0C0C;
 	text-align:center;
 }
 /*Content with photos under heading*/
@@ -68,19 +69,19 @@ ul{
 	font-size:60px;
 	font-weight:900;
 	margin:20px;
-	color:black;
+	color:#0C0C0C;
 	text-align:center;
 }
 .maincontent h2{
 	font-size: 30px;
 	font-weight:100;
-	color:black;
+	color:#0C0C0C;
 	text-align:center;
 }
 .maincontent p{
 	font-size:20px;
 	font-weight:100;
-	color:;
+	color:#0C0C0C;
 	float:right;
 }
 .maincontent #image{
@@ -96,13 +97,13 @@ ul{
 .questions{
 	width:100%;
 	height:100%;
-	color:black;
+	color:#0C0C0C;
 }
 .questions h1{
 	font-size:45px;
 	font-weight: 700;
 	margin:20px;
-	color:black;
+	color:#0C0C0C;
 	text-align: left;
 }
 .question li{
