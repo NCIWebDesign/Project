@@ -1,0 +1,116 @@
+/*Wood Bee Designs - Kitchen Page CSS
+David Cowell
+*/
+
+/*COMPANY INFORMATION IN HEADER*/
+
+#CompanyLogo{
+	float: left;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+	 }
+
+#CompanyContactInfo{
+	float: right;
+	margin-right: 4px;
+	width: 28%;
+	height: auto;
+	 }
+
+
+/*NAV BAR BELOW HEADER*/
+
+nav{
+	position: sticky;
+		top: -120px;
+	 }
+
+ul{
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+		width: 100%;
+	}
+
+li{
+		float: left;
+		width: 25%;
+	}
+
+li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 5% 10%;
+		text-decoration: none;
+	}
+
+li a.active{
+		background-color: #B2B6B4;
+		color: white;
+	}
+
+li a:hover:not(.inactive){
+		background-color: black;
+		color: white;
+	}
+
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
+ }
+
+ /*COMPANY INTRODUCTION*/
+
+ .OpeningHeader{
+	 text-align: center;
+	 padding-top: 6px;
+	 color: #0C0C0C;
+ }
+
+
+/*KITCHEN IMAGES AND DESCRIPTIONS*/
+
+.Kitchen1{
+	width: 28%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.Kitchen2{
+	width: 28%;
+	float: right;
+	padding: 0 20px 20px 0;
+}
+
+.BlueContemporaryApt3{
+	width: 28%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+.UpdatedKitchen{
+	width: 28%;
+	float: right;
+	padding: 0 20px 20px 0;
+}
+
+#FinalKitchenImage{
+	width: 28%;
+	float: left;
+	padding: 0 20px 20px 0;
+}
+
+	.ClosingLine{
+		text-align: center;
+	}
+
+	.ClosingMessage{
+		clear: left;
+		text-align: left
+	}
