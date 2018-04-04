@@ -1,0 +1,262 @@
+
+/* Timothy Bergin 
+   Form Submission Web Page 
+   in CSS
+ 
+
+/*COMPANY INFORMATION IN HEADER*/
+
+
+
+#CompanyLogo{
+
+	float: left;
+
+	margin-left: 50px;
+
+	margin-right: 70px;
+
+	width: 28%;
+
+	height: auto;
+
+	 }
+
+
+
+#CompanyContactInfo{
+
+	float: right;
+
+	clear: right;
+
+	height: auto;
+
+	 }
+
+
+
+
+
+/*NAV BAR BELOW HEADER*/
+
+
+
+nav{
+
+	position: sticky;
+
+	top: -120px;
+
+
+
+	 }
+
+
+
+ul{
+
+	list-style-type: none;
+
+		margin: 0;
+
+		padding: 0;
+
+		overflow: hidden;
+
+		clear: both;
+
+		width: 100%;
+
+	}
+
+
+
+li{
+
+		float: left;
+
+		width: 25%;
+
+	}
+
+
+
+li a{
+
+		display: block;
+
+		color: white;
+
+		text-align: center;
+
+		padding: 5% 10%;
+
+		text-decoration: none;
+
+	}
+
+
+
+li a.active{
+
+		background-color: #B2B6B4;
+
+		color: white;
+
+	}
+
+
+
+li a:hover:not(.active){
+
+		background-color: black;
+
+		color: white;
+
+	}
+
+
+
+a{
+
+	display: block;
+
+	padding: 8px;
+
+	background-color: #4D4C4E;
+
+ }
+
+
+.OpeningHeader { 
+     font-size: 16pt;
+     text-align: center;
+	 padding-top: 8px;
+     color: #0C0C0C; 
+	 display:inline;
+	 }
+
+
+.CompanyMap {
+     font-size: 20pt;
+	 text-align: right;
+	 padding-top: 8px; 
+	 background-color: #4D4C4E;
+     display: inline;
+	 }	 
+
+
+	 
+	 
+.CompanyForm {
+	 font-size: 16pt;
+	 text-align: left; 
+	 padding-top: 8px; 
+	 textcolor: #0C0C0C; 
+	 background-color: #B2B6B4;
+     display: inline; 
+     }	 
+	 
+.FormTitle { 
+     font-size: 22pt;
+	 text-align: left; 
+	 padding-top: 8px; 
+	 textcolor: #0C0C0C; 
+	 background-color: #B2B6B4;	 
+	 display: inline;
+	 }
+	 
+	 
+	 
+.table tform {
+     width: 50%; 
+     background-color: #f1f1c1;
+	 float:left;
+	 display: inline;
+	 }  
+
+.mypara
+    {
+     color:#0C0C0C;
+	 font size:12;
+	 font type: Times New Roman; 
+	 display: inline;
+	 float: left;
+	 }
+
+
+
+.Wood Bees Hand Crafted Workmanship {
+	 vertical-align: middle;
+     float: right-side;
+     width: 23.33333%; 
+	 margin-left: 5%;
+     margin-right: 5%;
+     padding-bottom: 20px;
+     display: inline;
+     }
+
+
+#map { 
+     float: right-side; 
+     position: fixed;
+     width: 50%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-bottom: 20px;
+     display: inline;
+	 } 
+
+.CompanyAddress{ 
+     textcolor:#0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 Text align: right-side;
+	 width: 50%; 
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;
+	 display: inline;
+	 }
+	 
+.InvitationtoEnterQuestionsandComments {
+     textcolor:#0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%; 
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;	 
+	 display: inline;
+	 } 
+
+.InquiryBox {
+     textcolor:#0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%; 
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;	 
+	 display: inline;
+	 } 
+
+	 
+.InquiryBoxSubmission {
+     textcolor:#FED728;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%; 
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;	 
+	 display: inline;
+	 } 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
