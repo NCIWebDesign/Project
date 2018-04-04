@@ -1,0 +1,165 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:'raleway';
+	font-size: 1.5em;
+}
+#CompanyLogo{
+ 	float: left;
+ 	margin-left: 50px;
+ 	margin-right: 70px;
+ 	width: 28%;
+ 	height: auto;
+ 	 }
+
+ #CompanyContactInfo{
+ 	float: right;
+ 	clear: right;
+ 	height: auto;
+ 	 }
+ header nav{
+ 	background-color:#4D4C4E;
+ 	color:#FFFFFF;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding:20px 0 20px 0;
+ }
+ul{
+	margin:0;
+	padding:0;
+}
+ header nav li{
+ 	display: inline-block;
+ 	padding-right:50px;
+ }
+ header nav li a{
+ 	text-decoration: none;
+ 	color:#FFFFFF;
+ }
+ header nav li a:hover{
+ 	color: #C1C1C1;
+ }
+
+/* Main headings below header*/
+
+.container{
+	min-height:400px;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+	color:#FFFFFF;
+}
+.container h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:#0C0C0C;
+	text-align:center;
+}
+.container h2{
+	font-size: 30px;
+	font-weight:100;
+	color:#0C0C0C;
+	text-align:center;
+}
+/*Content with photos under heading*/
+
+.maincontent h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:#0C0C0C;
+	text-align:center;
+}
+.maincontent h2{
+	font-size: 30px;
+	font-weight:100;
+	color:#0C0C0C;
+	text-align:center;
+}
+.maincontent p{
+	font-size:20px;
+	font-weight:100;
+	color:#0C0C0C;
+	float:right;
+}
+//images to support the text section
+div #image1 {
+	width:24px;
+	height:24px;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+div #image2 {
+	width:24px;
+	height:24px;
+	object-position:center;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+div #image3 {
+	width:24px;
+	height:24px;
+	float:right;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+/*Frequently asked questions section*/
+.questions{
+	width:100%;
+	height:100%;
+	color:#0C0C0C;
+}
+.questions h1{
+	font-size:45px;
+	font-weight: 700;
+	margin:20px;
+	color:#0C0C0C;
+	text-align: left;
+}
+.question li{
+	list-style: none;
+	text-align: left;
+}
+.question li a{
+	text-indent: 4px;
+}
+.footer{
+ 	background-color:#595959;
+ 	color:#FFFFFF;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding:20px 0 20px 0;
+ }
+ .footer li{
+ 	display: inline-block;
+ 	padding-right:50px;
+ }
+ .footer li a{
+ 	text-decoration: none;
+ 	color:#FFFFFF;
+ }
+ .footer li a:hover{
+ 	color: #C1C1C1;
+ }
+.footer #CompanyLogo{
+ 	float: left;
+ 	margin-left: 30px;
+ 	margin-right: 40px;
+ 	width: 28%;
+ 	height: auto;
+ 	 }
+header{
+	padding-bottom:20px;
+}
+.container h1{
+	margin-top:40px;
+}
