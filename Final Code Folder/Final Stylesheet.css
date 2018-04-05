@@ -1,0 +1,544 @@
+/*Wood Bee Designs - Final Stylesheet CSS
+David Cowell
+*/
+
+/*COMPANY INFORMATION IN HEADER*/
+
+/* David's CSS - Kitchen's Page */
+
+#CompanyLogo{
+	float: left;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+	 }
+
+#CompanyContactInfo{
+	float: right;
+	height: auto;
+	 }
+
+.facebook {
+		 background-color: #3B5998;
+		 color: #ffffff;
+	   font-weight: 500;
+	   padding: 10px 10px 10px 45px;
+	   display: inline-block;
+		 float: right;
+		 margin-right: 15%;
+	   text-decoration: none;
+	   font-family: helvetica, sans-serif;
+	   line-height: 1.0;
+	   border-radius: 3px;
+	   background-repeat: no-repeat;
+	   background-size: auto 60%;
+	   background-position: 10px center;
+	 }
+
+.facebookicon {
+		 fill: #fff;
+	 }
+
+/*NAV BAR BELOW HEADER*/
+
+nav{
+	position: sticky;
+	top: -120px;
+	 }
+
+ul{
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+		width: 100%;
+	}
+
+li{
+		float: left;
+		width: 25%;
+	}
+
+li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 5% 10%;
+		text-decoration: none;
+	}
+
+li a.active{
+		background-color: #B2B6B4;
+		color: white;
+	}
+
+li a:hover:not(.active){
+		background-color: black;
+		color: white;
+	}
+
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
+ }
+
+ /*COMPANY INTRODUCTION*/
+
+ .OpeningHeader{
+	 font-size: 16pt;
+	 text-align: center;
+	 padding-top: 8px;
+	 color: #0C0C0C;
+	 text-decoration: underline;
+ }
+
+ p#OpeningParagraph{
+	 font-size: 13pt;
+	 text-align: center;
+	 padding-top: 6px;
+	 padding-bottom: 8px;
+	 color: #0C0C0C;
+ }
+
+
+/*KITCHEN IMAGES AND DESCRIPTIONS*/
+
+.Kitchen1{
+	vertical-align: middle;
+	float: left-side;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+
+}
+
+.Kitchen2{
+	vertical-align: middle;
+	float: right-side;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+}
+
+
+.BlueContemporaryApt3{
+	vertical-align: middle;
+	float: left-side;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+}
+
+
+
+.UpdatedKitchen{
+	vertical-align: middle;
+	float: right-side;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+}
+
+/*Closing Lines and Footer Text*/
+
+.ClosingFooter{
+	 font-size: 16pt;
+	 text-align: center;
+	 padding-top: 30px;
+	 color: #0C0C0C;
+	 text-decoration: underline;
+	}
+
+.FinalImage{
+	vertical-align: middle;
+	width: 23.33333%;
+	margin-left: 25%;
+	margin-right: 5%;
+	padding-bottom: 20px;
+	padding-top: 60px;
+}
+
+/* Sinead's CSS - Main Page /*
+
+.contact{
+	color: black;
+	display: block;
+	background-color: #FED728;
+}
+/*backgrouns scroll image*/
+#imagescroller {
+    background-image:
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*brand bar*/
+
+#logo{
+	float: left;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+
+}
+#imagescroller{
+	width: 100%;
+	height: auto;
+}
+
+#contactinfo{
+  float: right;
+	clear: right;
+	height: auto;
+	}
+
+.intro {
+	clear: both;
+	text-align: center;
+}
+.intro p{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#USP{
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.icon{
+	float: left;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+
+}
+
+.icon img{
+	width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  clear: both;
+  align-items: stretch;;
+}
+
+.flex-container .flex-container-item {
+  background-color: #4D4C4E;
+  color: white;
+  margin: 0;
+  text-align: center;
+  line-height: 2.5em;
+  flex-grow: 1;
+  flex: 1;
+  min-height:400px;
+}
+.flex-container-item p{
+	font-size:1em;
+}
+
+
+/* section for testimonials*/
+.testimonial{
+	clear: both;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+.testimonial {
+	clear: both;
+	text-align: center;
+}
+.testimonial p{
+	margin-left: 2.5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#quotes{
+	display: flex;
+  clear: both;
+  align-items: stretch;;
+}
+.quote{
+	border: 2px #4D4C4E solid;
+	border-radius: 30px;
+	margin: 5%;
+	text-align: center;
+	line-height: 2.5em;
+	flex-grow: 1;
+	flex: 1;
+
+
+}
+
+.quote img{
+	border: solid black 2px;
+	border-radius:50%;
+	width: 50%;
+}
+#foot{
+	clear:both;
+	width:100%;
+	background-color: black;
+
+}
+
+/* Dingfen's CSS - About Us Page */
+
+
+.container{
+	min-height:400px;
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+	text-align:center;
+	color:#FFFFFF;
+}
+.container h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:#0C0C0C;
+	text-align:center;
+}
+.container h2{
+	font-size: 30px;
+	font-weight:100;
+	color:#0C0C0C;
+	text-align:center;
+}
+/*Content with photos under heading*/
+
+.maincontent h1{
+	font-size:60px;
+	font-weight:900;
+	margin:20px;
+	color:#0C0C0C;
+	text-align:center;
+}
+.maincontent h2{
+	font-size: 30px;
+	font-weight:100;
+	color:#0C0C0C;
+	text-align:center;
+}
+.maincontent p{
+	font-size:20px;
+	font-weight:100;
+	color:#0C0C0C;
+	float:right;
+}
+//images to support the text section
+div #image1 {
+	width:24px;
+	height:24px;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+div #image2 {
+	width:24px;
+	height:24px;
+	object-position:center;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+div #image3 {
+	width:24px;
+	height:24px;
+	float:right;
+	margin-left: 10px;
+	margin-right: 10px
+	border:solid black 10px;
+	padding:2px;
+}
+/*Frequently asked questions section*/
+.questions{
+	width:100%;
+	height:100%;
+	color:#0C0C0C;
+}
+.questions h1{
+	font-size:45px;
+	font-weight: 700;
+	margin:20px;
+	color:#0C0C0C;
+	text-align: left;
+}
+.question li{
+	list-style: none;
+	text-align: left;
+}
+.question li a{
+	text-indent: 4px;
+}
+.footer{
+ 	background-color:#595959;
+ 	color:#FFFFFF;
+ 	list-style:none;
+ 	text-align: center;
+ 	padding:20px 0 20px 0;
+ }
+ .footer li{
+ 	display: inline-block;
+ 	padding-right:50px;
+ }
+ .footer li a{
+ 	text-decoration: none;
+ 	color:#FFFFFF;
+ }
+ .footer li a:hover{
+ 	color: #C1C1C1;
+ }
+.footer #CompanyLogo{
+ 	float: left;
+ 	margin-left: 30px;
+ 	margin-right: 40px;
+ 	width: 28%;
+ 	height: auto;
+ 	 }
+header{
+	padding-bottom:20px;
+}
+.container h1{
+	margin-top:40px;
+}
+
+
+/* Tim's CSS - Contact Us Page */
+
+.OpeningHeader {
+   font-size: 16pt;
+
+	 text-align: center;
+
+	 padding-top: 8px;
+
+	 color: #0C0C0C;
+	 }
+
+
+.CompanyMap {
+     font-size: 20pt;
+	 text-align: right;
+	 padding-top: 8px;
+	 background-color: #4D4C4E ;
+     }
+
+
+
+
+.CompanyForm {
+	 font-size: 16pt;
+	 text-align: left;
+	 padding-top: 8px;
+	 textcolor: #0C0C0C;
+	 background-color: #B2B6B4;
+     }
+
+.FormTitle {
+     font-size: 22pt;
+	 text-align: left;
+	 padding-top: 8px;
+	 textcolor: #0C0C0C;
+	 background-color: #B2B6B4;
+	 }
+
+
+
+	 table tform {
+     width: 50%;
+     background-color: #f1f1c1;
+	 float:left;
+
+	 }
+
+.mypara
+    {
+     color:#0C0C0C;
+	 font size:12;
+	 font type: Times New Roman;
+	 }
+
+.Wood Bees Hand Crafted Workmanship {
+	 vertical-align: middle;
+
+	 float: right-side;
+
+	 width: 23.33333%;
+
+	 margin-left: 5%;
+
+	 margin-right: 5%;
+
+	 padding-bottom: 20px;
+
+     }
+
+
+
+
+
+#map {
+     float: right-side;
+     position: fixed;
+     width: 50%;
+     margin-left: 5%;
+     margin-right: 5%;
+     padding-bottom: 20px;
+     }
+
+.CompanyAddress{
+     textcolor:0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;
+	 }
+
+.InvitationtoEnterQuestionsandComments {
+     textcolor:0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;
+	 }
+
+.InquiryBox {
+     textcolor:0C0C0C;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;
+	 }
+
+
+.InquiryBoxSubmission {
+     textcolor:#FED728;
+	 fontsize:12 pt;
+	 float: right-side;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+     padding-bottom: 20px;
+	 }
