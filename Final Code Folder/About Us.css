@@ -79,10 +79,12 @@ ul{
 	text-align:center;
 }
 .maincontent p{
+	display: block;
 	font-size:20px;
 	font-weight:100;
 	color:#0C0C0C;
-	float:right;
+	margin-left: 50px;
+	margin-right: 70px;
 }
 /*images to support the text section*/
 div #image1 #image2 #image3{
