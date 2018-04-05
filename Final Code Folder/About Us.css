@@ -5,39 +5,64 @@ body{
 	font-size: 1.5em;
 }
 #CompanyLogo{
- 	float: left;
- 	margin-left: 50px;
- 	margin-right: 70px;
- 	width: 28%;
- 	height: auto;
- 	 }
+	float: left;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+	 }
 
- #CompanyContactInfo{
- 	float: right;
- 	clear: right;
- 	height: auto;
- 	 }
- header nav{
- 	background-color:#4D4C4E;
- 	color:#FFFFFF;
- 	list-style:none;
- 	text-align: center;
- 	padding:20px 0 20px 0;
- }
+#CompanyContactInfo{
+	float: right;
+	margin-right: 4px;
+	width: 28%;
+	height: auto;
+	 }
+
+
+/*NAV BAR BELOW HEADER*/
+
+nav{
+	position: sticky;
+		top: -120px;
+	 }
+
 ul{
-	margin:0;
-	padding:0;
-}
- header nav li{
- 	display: inline-block;
- 	padding-right:50px;
- }
- header nav li a{
- 	text-decoration: none;
- 	color:#FFFFFF;
- }
- header nav li a:hover{
- 	color: #C1C1C1;
+	list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+		width: 100%;
+	}
+
+li{
+		float: left;
+		width: 25%;
+	}
+
+li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 5% 10%;
+		text-decoration: none;
+	}
+
+li a.active{
+		background-color: #B2B6B4;
+		color: white;
+	}
+
+li a:hover:not(.inactive){
+		background-color: black;
+		color: white;
+	}
+
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
  }
 
 /* Main headings below header*/
