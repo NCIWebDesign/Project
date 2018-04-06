@@ -11,6 +11,17 @@
 
 <link rel="stylesheet" href=“FormWebPageCSS.css"> 
 
+<script>
+src="FormWebPageJavaScript.js"
+<form action="/action_page.php" autocomplete="on">
+  First name:<input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  E-mail: <input type="email" name="email" autocomplete="off"><br>
+  <input type="submit">
+</form> 
+</script>
+
+
 </head>
 <body>
 
@@ -76,23 +87,23 @@
 	 <tr>
 	 <form action="action_page.php">
 	 <td>Enter Name:<br></td>
-     <td><input type="text" name="entername" size = "80"><br></td>
+     <td><input type="text" name="entername"><br></td>
 	 </tr>
 	 
 	 <tr>
 	 <td>Enter Address:<br></td> 
-     <td><input type="text" name="enteraddress" size = "80"><br></td> 
+     <td><input type="text" name="enteraddress"><br></td> 
 	 </tr>
 	 
 	 <tr>
 	 <td>Enter Phone Number:<br></td> 
-     <td><input type="text" name="enterphonenumber" size = "80" ><br></td>
+     <td><input type="text" name="enterphonenumber"><br></td>
 	 </tr>
 	 
 	 <tr>
 	 <td>Method of Contact:<br></td> 
-	 <td><button type="Phone" onclick="alert('You have chosen to be contacted by Phone!')">Click Me!</button> size = 80px <br></td> 
-	 <td><button type="Email" onclick="alert('You have chosen to be contacted by Email!')">Click Me!</button> size = 80px <br></td> 
+	 <td><button type="Phone" onclick="alert('You have chosen to be contacted by Phone!')">Click Me!</button><br></td> 
+	 <td><button type="Email" onclick="alert('You have chosen to be contacted by Email!')">Click Me!</button><br></td> 
 	 </tr>
 	 
 	 <tr>
@@ -108,15 +119,10 @@
 	 <tr>
 	 <td>List of Time Slots:<br></td> 
 	 <td><select name="List of Time Slots"><br></td>
-	 <td><option value="9:00am to 10:00am">9:00am to 10:00am</option><br></td> 
-	 <td><option value="10:00am to 11:00am">10:00am to 11:00am</option><br></td>
-	 <td><option value="9:00am to 12:00am">11:00am to 12:00pm</option><br></td>
-     <td><option value="9:00am to 10:00am">12:00pm to 1:00pm</option><br></td> 
-     <td><option value="9:00am to 10:00am">1:00pm to 2:00pm</option><br></td> 
-	 <td><option value="9:00am to 10:00am">2:00pm to 3:00pm</option><br></td> 
-	 <td><option value="9:00am to 10:00am">3:00pm to 4:00pm</option><br></td> 
-	 <td><option value="9:00am to 10:00am">4:00pm to 5:00pm</option><br></td> 
-     <td><option value="9:00am to 10:00am">5:00pm to 6:00pm</option><br></td> 
+	 <td><option value="Morning">Morning</option><br></td> 
+	 <td><option value="Afternoon">Afternoon</option><br></td>
+	 <td><option value="Evening">Evening</option><br></td>
+      
 	 </tr>
 	 
 	 <tr>
