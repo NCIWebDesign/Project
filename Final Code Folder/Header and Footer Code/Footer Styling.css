@@ -1,0 +1,29 @@
+/*Closing Lines and Footer Text*/
+
+.ClosingFooter{
+	 font-size: 16pt;
+	 text-align: center;
+	 padding-top: 30px;
+	 color: #0C0C0C;
+	 text-decoration: underline;
+	}
+
+.minilogo{
+	height: 130px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.flex-container {
+	background-color:#4D4C4E;
+	color: #FFFFFF;
+	display: flex;
+	align-items: center;
+	letter-spacing: .1em;
+	line-height: 2em;
+}
+
+.sitemap{
+	color: #ffffff;
+	display: block;
+}

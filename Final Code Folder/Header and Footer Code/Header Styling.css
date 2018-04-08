@@ -1,0 +1,82 @@
+body{
+	font-family: Raleway, sans-serif;
+	letter-spacing: .1em;
+	line-height: 2em;	
+}
+
+#CompanyLogo{
+	float: left;
+	margin: 1% 5%;
+	margin-left: 50px;
+	margin-right: 70px;
+	width: 28%;
+	height: auto;
+	 }
+
+#CompanyContactInfo{
+	color: #4D4C4E;
+	float: right;
+	height: auto;
+	font-weight: bold;
+	font-size: 1.2em;
+	 }
+	 
+.fbicon32{
+	float: right;
+}
+	
+
+/*NAV BAR BELOW HEADER*/
+
+nav{
+	clear: both;
+	margin:0;
+	position: sticky;
+	top:0;
+	border: white solid;
+	border-width: 2px 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	clear: both;
+	width: 100%;
+	}
+
+li{
+	float: left;
+	width: 25%;
+	}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5% 10%;
+	text-decoration: none;
+	}
+
+li a.active{
+	background-color: #B2B6B4;
+	color: white;
+	}
+
+li a:hover:not(.active){
+	background-color: black;
+	color: white;
+	}
+
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
+ }
+ 
+ .contact{
+	color: black;
+	display: block;
+	background-color: #FED728;
+}
