@@ -1,0 +1,261 @@
+/* Timothy Bergin
+   Form Submission Web Page
+   in CSS
+*/
+
+/*COMPANY INFORMATION IN HEADER*/
+
+body{
+	font-family: Raleway, sans-serif;
+	letter-spacing: .1em;
+	line-height: 2em;
+}
+/*head*/
+/*header brand*/
+
+
+#header{
+	display: flex;
+
+}
+#logo{
+	flex:1;
+	margin: 1% 5%;
+	align-self: center;
+	
+}
+#contactinfo{
+	flex: 1;
+	align-self: center;
+	margin-left: 15%;
+	margin-right: 5%;
+	font-weight: bold;
+	font-size: 1.2em;
+	padding: 1%;
+	border: dashed #4D4C4E 2px;
+	border-radius: 10px;
+	text-align: center;
+}
+
+#contactinfo p{
+		margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#headerFB{
+	flex: .5;
+	align-self: center;
+}
+
+#headerFB a{
+	background-color: white;
+	position: inherit;
+}
+
+#headerFB img{
+	position: inherit;
+}
+
+
+
+/*nav*/
+nav{
+	clear: both;
+	display: flex;
+	margin:0;
+	position: sticky;
+	top:0;
+	font-size: 1em;
+	border: white solid;
+	border-width: 2px 0;
+}
+ul {
+  
+	flex: 1;
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+}
+
+li{
+	float: left;
+	width: 25%;
+}
+
+li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 5% 10%;
+	text-decoration: none;
+}
+a{
+	display: block;
+	padding: 8px;
+	background-color: #4D4C4E;
+}
+.contact{
+	color: black;
+	display: block;
+	background-color: #FED728;
+}
+
+/*change colour of link when hovered over*/
+nav li a.active {
+    background-color: #B2B6B4;
+    color: white;
+}
+
+nav li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+
+/*form page contant code*/
+
+
+.OpeningHeader {
+     font-size: 1.2em;
+
+	 text-align: center;
+
+	 padding: 2% 10%;
+
+	 color: #0C0C0C;
+	 }
+
+
+.CompanyMap {
+     font-size: 20pt;
+	 text-align: right;
+	 padding-top: 8px;
+	 background-color: #4D4C4E ;
+     }
+
+
+
+
+#CompanyForm {
+	 font-size: 1em;
+	 text-align: left;
+	 padding: 2% 5%;
+	 color: #0C0C0C;
+	 background-color: #B2B6B4;
+	 float: left;
+	 width: 30%;
+     }
+	 
+#CompanyForm h2, p{
+	text-align: left;
+}
+
+
+
+.Wood Bees Hand Crafted Workmanship {
+	 vertical-align: middle;
+
+	 float: right-side;
+
+	 width: 23.33333%;
+
+	 margin-left: 5%;
+
+	 margin-right: 5%;
+
+	 padding-bottom: 20px;
+
+     }
+
+
+
+
+
+#CompanyMap {
+     float: right;
+     margin-left: 5%;
+     margin-right: 10%;
+	 width: 40%;
+
+
+     }
+	 
+
+
+#CompanyMap p{
+     color:0C0C0C;
+	 font-size:1.2em;
+	 text-align: center;
+	 Display: inline;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 }
+
+	 
+	 
+/*footer*/
+#footer-container{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	clear:both;
+	align-items: stretch;
+	color: #0C0C0C;
+	background-color:#4D4C4E;
+}
+
+
+#footerLogo{
+	flex: 1;
+	align-self: center;
+	background-color: #4D4C4E;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#footerAdress{
+	flex: 1;
+	color: white;
+	align-self: center;
+}
+
+#footerNav{
+	flex:3;
+	align-self: center;	
+}
+
+#footerNav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footerNav li{
+	float: left;
+	width: 15%;
+	margin-right: 3%;
+	text-align: center;
+	color: white;
+	display: block;
+	font-size: .8em;
+}
+
+#footerNav li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#footerFB{
+	flex: .5;
+	align-self: center;
+}
+
+#footerFB img{
+	position: inherit;
+}
