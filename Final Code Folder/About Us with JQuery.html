@@ -4,8 +4,22 @@
    	<meta charset="utf-8">
      <title>WOOD BEE DESIGNS KITCHENS PAGE</title>
    <link rel="stylesheet" href="about us.css">
-   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="KitchenPage.css">
+	    <link rel="stylesheet" href="KitchenPage.css">
+   src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+ <script>
+  $(document).ready(function(){
+    $("li.a").filter(':nth-child(n+4)').addClass('hide');
+    $("ul").on('click','li.q', function(){
+      $(this)
+        .next()
+          .slideDown(200)
+          .siblings('li.a')
+            .slideUp(200);
+    })
+  });
+	 </script>
   </head>
   <body>
   <div id="header"
@@ -43,18 +57,18 @@
 <h1>Frequently Asked Questions</h1>
 <div>
   <ul>
-	<li class='q' data-icon="+">Do I have to provide measurements or will the designer come and measure it out?</li>
+	<li class='q'>Do I have to provide measurements or will the designer come and measure it out?</li>
 			<p class='a'>
 	It will be the best if you could provide measurements of the kitchen in order for our designer to come up with a preliminary design. It also shortens the process if the measurements are already provided.</p>
 	
-	<li class='q' data-icon="+">How much will it cost?</li>
+	<li class='q'>How much will it cost?</li>
 	<li class='a'>
 	The cost will very much depend on the design, size and material. We also have to take into account the amount of time it takes to fit the kitchen. If you would like to find out more about the costs, please refer to our contact page and leave a question, we will get back to you as soon as possible. </li>
 	<li class='q' data-icon="+">Would the price include installation or delivery?</li>
 	<li class='a'>
 	The price does not include installation or delivery. The focus of Wood Bee Designs is to make bespoke furniture, we provide deisning and the manufacturing of the furniture. 
 	</li>
-	<li class='q' data-icon="+">What is the warranty</li>
+	<li class='q'>What is the warranty</li>
 	<li class='a'>
 	Quality and desing would be our main focus, therefore we could proudly vouch for our quality. If there is any issue, you could contact Rosie and we will get back to you as soon as possible regarding repair and refund.</li>
 	<li class='q' data-icon="+">Who should I contact for after sale care?</li>
@@ -96,30 +110,7 @@
 		<div>
 		  <a href="https://www.facebook.com/woodbeeedesigns/"> <img src="Images\fbicon.png">
 		</div>
-		
- <script>
-    $(document).ready(function()){
-      $("#question1").click(function() {
-      $("#answer1").toggle();
-      });
-      $(document).ready(function()){
-      $("#question2").click(function() {
-      $("#answer2").toggle();
-      });
-    
-      $("#question3").click(function() {
-      $("#answer3").toggle();
-      });
-   
-      $("#question4").click(function() {
-      $("#answer4").toggle();
-      });
- 
-      $("#question5").click(function() {
-      $("#answer5").toggle();
-      });
-    });
-</script>
+	
 </body>
 
 </html>
