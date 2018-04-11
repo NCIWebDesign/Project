@@ -29,7 +29,7 @@ body{
 }
 .maincontent p{
 	display: block;
-	font-size:20px;
+	font-size:1em;
 	font-weight:100;
 	color:#0C0C0C;
 	margin-left: 30px;
@@ -82,7 +82,7 @@ div #image3 {
 questions{
 	padding: 2px;
 	font-family: 'raleway';
-	font-size: 16px;
+	font-size: 1em;
 	text-indent: 4px;
 	align-content: center;
 	flex-grow: 1;
