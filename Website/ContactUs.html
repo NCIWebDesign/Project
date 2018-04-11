@@ -1,0 +1,158 @@
+<!--Timothy Bergin
+   Form Submission Web Page
+   in HTML
+ -->
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Wood Bee Designs Contact Us</title>
+
+		<link rel="stylesheet" href="ContactUs.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		<link rel="stylesheet" href="headerfooter.css">
+		<script src="form.js"></script>
+	</head>
+	<body>
+	
+	<!--header-->
+		<div id="header">
+			<img id="logo" src="Images\Logo.png" width="50" height="auto">
+			<div id="contactinfo">
+				<p>086 339 6048</br>
+				hi@woodbeedesigns.com</p>
+			</div>
+			<div id="headerFB">
+				<a href="https://www.facebook.com/woodbeeedesigns/"><img src="Images\footerFacebook.png" width="60" height="60"></a>
+			</div>
+		</div>
+		
+		<!--nav bar-->
+		<nav>
+			<ul>
+				<li><a href="MainPage.html">HOME</a></li>
+				<li><a href="AboutUs.html">ABOUT US</a></li>
+				<li><a href="Kitchens.html">KITCHENS</a></li>
+				<li><a class="contact" href="ContactUs.html">CONTACT US</a></li> 
+			</ul>
+		</nav>
+
+
+		<div id="TopSection">
+		<div class="OpeningHeader">
+
+			<h1>We can't wait to hear from you!</h1>
+
+			<p>Please use the form below to get in touch with us and we'll do our very best to get to you within 24 hours. Below is also directions to our workshop, feel free to pay us a visit anytime and check out our work. Just let us know first so we can make sure to put the kettle on!</p>
+			</div>
+		
+			<img id="TopImage" img src="Images/KitchenTraditional ColourBlock.jpg">
+		</div>
+
+		<!--form-->
+		 <form id="CompanyForm" action="action_page.php">
+			<h2>Get In Touch</h2>
+			<p>Fill in your details below and we'll be in touch shortly</p>
+				<table>
+					<th></th>
+					<tbody>
+					<tr>
+						<td><label for="name">Name:</label></td>
+						<td><input id="name" name="name" type="text" placeholder="Enter your name" required></td>
+					</tr>
+					<tr>
+						<td><label for="email">Email:</label></td>
+						<td><input id="email" name="email" type="email" placeholder="Enter your email" required></td>
+					</tr>
+					<tr>
+						<td><label for="phone">Phone:</label></td>
+						<td><input id="phone" name="phone" type="text" placeholder="Enter your phone number" required></td>
+					</tr>
+					</tbody>
+				</table>
+			
+			<p>Preferred contect method:</p>
+			<label for="phone">Phone</label>
+			<input name="contactChoice" id="phone" type="radio" value="phone">
+			 <label for="email">Email</label>
+			 <input name="contactChoice" id="email" type="radio" value="email">
+				
+			<p>Perferred Contact time</p></td>
+			<select name="time">
+				<option readonly>Select a time</option>
+				<option value="morning">Morning</option>
+				<option value="afternoon">Afternoon</option>
+				<option value="evening">Evening</option>
+			</select></br>
+				
+
+			Where Did You Hear About Us?: </br>
+			<select name="List of Information Sources"><br>
+				 <option value="Word of Mouth">Word of Mouth</option>
+				 <option value="Social Media">Social Media</option>
+				 <option value="Newspaper">Newspaper</option>
+				 <option value="Magazines or other Print Media">Magazines or other Print Media</option>
+			</select></br>
+
+			<p>Comments:</p>
+			<textarea rows="4" cols="50">Feel free to tell us a little bit more information about why you want to get in touch. 
+			</textarea></br>
+		
+			<input type="submit" value="Submit">
+
+		</form>
+
+
+		<div id="CompanyMap">
+
+			<h2>Directions to the Workshop</h2>
+
+			<div id="map"></div>
+
+			<p>
+				Wood Bee Designs</br>
+				An Rinn,</br>
+				Co. Waterford,</br>
+				Ireland.</br>
+			</p>
+		
+		</div>
+
+	  <!-- Closing Footer -->
+<!-- Closing Footer -->
+
+		<div id="footer-container">
+		
+			
+			<img id="footerLogo" src="images/LogoFoot.png" width="100" height="auto">
+			
+		
+			<div id="footerAdress">
+				<p>086 339 6048</br>
+				Rinn, Dungarvan,</br> 
+				Co. Waterford</br>
+				hi@woodbeedesigns.com</p>
+			</div>
+
+		
+			
+			<ul id="footerNav">
+				<li><a href="Mainpage.html">HOME</a></li>
+				<li><a href="About Us.html">ABOUT</a></li>
+				<li><a href="Kitchen Page.html">KITCHENS</a></li>
+				<li><a href="Form Web Page.html">CONTACT</a></li>
+				<li><a href="SiteMap.html">SITEMAP</a></li>
+			</ul>
+		
+			<div id="footerFB">
+				<a href="https://www.facebook.com/woodbeeedesigns/"><img src="Images\footerFacebook.png" width="50" height="50"></a>
+			</div>
+			
+		</div>
+		
+
+
+
+</body>
+</html>

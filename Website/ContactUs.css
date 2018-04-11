@@ -1,0 +1,160 @@
+/* Timothy Bergin
+   Form Submission Web Page
+   in CSS
+*/
+
+/*COMPANY INFORMATION IN HEADER*/
+
+body{
+	font-family: Raleway, sans-serif;
+	letter-spacing: .1em;
+	line-height: 2em;
+	color: #0C0C0C;
+}
+
+/*NAV BAR, HEADER, and FOOTER LINKED IN HEADERFOOTER.CSS*/
+
+
+/*form page contant code*/
+
+
+.OpeningHeader {
+	 text-align: center;
+	 margin-left: 10%;
+	 margin-top: 5%;
+	 margin-bottom:5%;
+	 margin-right:6%;
+	 text-align: center;
+	 width:40%;
+	 float: left;
+	 }
+
+
+	 
+#TopImage{
+	width: 30%;
+	float: right;
+	margin-right:10%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	border: dashed #4D4C4E 2px;
+	border-radius: 10px;
+	padding:1%;
+	 }
+
+	 
+#TopSection{
+	clear:both;
+}
+
+
+
+
+#CompanyForm {
+	 font-size: 1em;
+	 text-align: left;
+	 padding: 2% 5%;
+	 margin: 2%;
+	 color: #0C0C0C;
+	 background-color: #B2B6B4;
+	 float: left;
+	 width: 30%;
+	 clear: both;
+     }
+	 
+#CompanyForm h2, p{
+	text-align: left;
+}
+
+
+
+
+
+
+
+#CompanyMap {
+     float: right;
+     margin-left: 5%;
+     margin-right: 10%;
+	 width: 40%;
+
+
+     }
+	 
+
+
+#CompanyMap p{
+     color:0C0C0C;
+	 font-size:1.2em;
+	 text-align: center;
+	 Display: inline;
+	 width: 50%;
+	 margin-left: 5%;
+	 margin-right: 5%;
+	 }
+
+	 
+	 
+/*footer*/
+#footer-container{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	clear:both;
+	align-items: stretch;
+	color: #0C0C0C;
+	background-color:#4D4C4E;
+}
+
+
+#footerLogo{
+	flex: 1;
+	align-self: center;
+	background-color: #4D4C4E;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+#footerAdress{
+	flex: 1;
+	color: white;
+	align-self: center;
+}
+
+#footerNav{
+	flex:3;
+	align-self: center;	
+}
+
+#footerNav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footerNav li{
+	float: left;
+	width: 15%;
+	margin-right: 3%;
+	text-align: center;
+	color: white;
+	display: block;
+	font-size: .8em;
+}
+
+#footerNav li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#footerFB{
+	flex: .5;
+	align-self: center;
+}
+
+#footerFB img{
+	position: inherit;
+}

@@ -1,0 +1,219 @@
+
+body{
+	font-family: Raleway, sans-serif;
+	letter-spacing: .1em;
+	line-height: 2em;
+	color: #0C0C0C;
+	font-size: 1em;
+}
+/*NAV BAR, HEADER, and FOOTER LINKED IN HEADERFOOTER.CSS*/
+
+
+
+
+/*large showcase image*/
+#largeimage {
+    background-image:
+    background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+/*opening intro paragraph and unique selling points*/
+.intro {
+	clear: both;
+	text-align: center;
+	margin-top: 5%;
+}
+
+.intro h1{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+.intro p{
+	margin-left: 10%;
+	margin-right: 10%; 
+	margin-bottom: 3%;
+	width: 80%;	
+	font-size: 1.1em;
+}
+
+#USP{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.icon{
+	float: left;
+	width: 23.33333%;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 6%;
+	font-size:1em;
+	text-align: center;
+}
+
+.icon img{
+	width: 50%;
+}
+
+/*links to further info with image that scrolls*/
+.flex-container, .flex-container1{
+  display: flex;
+  clear: both;
+  align-items: stretch;
+}
+
+.flex-container .flex-container-item {
+  background-color: #4D4C4E;
+  color: white;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+  min-height:400px;
+}
+
+
+.flex-container1 .flex-container-item {
+  background-color: #4D4C4E;
+  color: white;
+  margin: 0;
+  text-align: center;
+  flex: 1;
+  min-height:400px;
+}
+
+.flex-container1 .flex-container-item, .flex-container-image1, .flex-container-image2 {
+	background-color: #4D4C4E;
+	margin: 0;
+	flex: 1;
+	min-height:400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+.flex-container-image1{	
+	background-image: url("Images/HandsCarpentry 8.jpg");
+}
+
+.flex-container-image2{	
+	background-image: url("Images/BlueComtempary.jpg");
+}
+
+.flex-container-item-button{
+	display:inline-block; 
+	border:1px solid grey; 
+	padding:0px 16px; 
+	color:white; 
+	background-color:black; 
+	border-radius:5px; 
+	text-decoration:none;
+}
+/*styling text adn text placement in flex-box links area*/
+.flex-container-item p{
+	padding: 4%;
+}
+
+.flex-container-item h2{
+	padding-top: 4%;
+}
+
+/* section for testimonials*/
+.testimonial{
+	clear: both;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+
+.testimonial {
+	clear: both;
+	text-align: center;
+}
+.intro h1{
+	width: 50%;
+	text-align: center;
+	margin: auto;
+}
+
+.testimonial p{
+	margin: auto;
+	width: 80%;
+	font-size: 1.1em;
+}
+
+
+
+#quotes{
+	display: flex;
+	flex-wrap: wrap;
+	clear: both;
+	align-items: stretch;;
+}
+
+#quotes h3{
+	font-size: 1.5em;
+}
+.quote{
+	border: 2px #4D4C4E solid;
+	border-radius: 30px;
+	margin: 5%;
+	padding: 1%;
+	text-align: center;
+	line-height: 2.5em;
+	flex-grow: 1;
+	flex: 1;
+	font-size: .8em;
+	width: 20%;
+	background-color: white;
+}
+
+.quote:hover{
+	transform: scale(1.5, 1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 1000px) {
+    .quote{
+        min-width: 90%;
+    }
+	
+@media(max-width: 800px) {
+    .icon{
+        min-width: 100%;
+    }	
+
+/*@media only screen and (max-width: 600px) {
+  .flex-container {
+    display: none;
+  }
+}*/
+
+
+
+
+
+
+
+
+
+
