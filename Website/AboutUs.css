@@ -76,10 +76,11 @@ div #image3 {
 } 
 
 
-#FAQ{
+#accordion{
 	clear: both;
 }
-questions{
+
+#accordion{
 	padding: 2px;
 	font-family: 'raleway';
 	font-size: 1em;
@@ -91,7 +92,7 @@ questions{
 
 
 
-.questions h1{
+#FAQ h1{
 	font-size:30px;
 	font-weight: 700;
 	margin:20px;
@@ -99,32 +100,23 @@ questions{
 	text-align: center;
 }
 
-.questions ul li{
- list-style:none;
+#accordion h3{
   font-size: 1em;
   font-family: 'raleway';
   color: #0E3C29;
 }
 
-.questions ul li .q{
+#accordion h3{
 	cursor:pointer;
 	font-weight: bold;
-  font-size: 1.5em;
   line-height: 2em;
   background-color: #cccccc;
   border: 1px #666666 solid;
 }
-.questions ul li.a{
+#accordion p .a{
   margin-left: 0;
    padding: 1em 0;
   font-size: 1em;
-}
-.questions ul li.a{
-	content: alter("data-icon");
-	margin:0;
-}
-.hide{
-	display:none;
 }
 
 .footer{
