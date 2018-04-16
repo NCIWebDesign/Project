@@ -76,6 +76,15 @@ div #image3 {
 } 
 
 
+.FAQ h1{
+	font-family: 'raleway';
+	font-size:30px;
+	font-weight: 700;
+	margin:20px;
+	color:#0C0C0C;
+	align-content: center;
+}
+
 #accordion{
 	clear: both;
 }
@@ -88,16 +97,6 @@ div #image3 {
 	align-content: center;
 	flex-grow: 1;
 	flex: 1;
-}
-
-
-
-#FAQ h1{
-	font-size:30px;
-	font-weight: 700;
-	margin:20px;
-	color:#0C0C0C;
-	text-align: center;
 }
 
 #accordion h3{
@@ -113,11 +112,15 @@ div #image3 {
   background-color: #cccccc;
   border: 1px #666666 solid;
 }
-#accordion p .a{
+#accordion p{
   margin-left: 0;
    padding: 1em 0;
   font-size: 1em;
 }
+#accordion h3 p .a5{
+	margin-bottom: 15%;
+}
+
 
 .footer{
  	background-color:#595959;
