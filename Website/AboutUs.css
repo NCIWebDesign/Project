@@ -76,12 +76,14 @@ div #image3 {
 } 
 
 
+
 .FAQ h1{
 	font-family: 'raleway';
-	width: 80%;
+	font-size: 2em;
+	width: 50%;
 	margin: auto;
 	color:#0C0C0C;
-	align-content: center;
+	text-align: center;
 }
 
 #accordion{
