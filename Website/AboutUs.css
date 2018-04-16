@@ -78,9 +78,8 @@ div #image3 {
 
 .FAQ h1{
 	font-family: 'raleway';
-	font-size:30px;
-	font-weight: 700;
-	margin:20px;
+	width: 80%;
+	margin: auto;
 	color:#0C0C0C;
 	align-content: center;
 }
