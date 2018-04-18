@@ -109,73 +109,45 @@
 			<input type="submit" value="Submit">
 
 		</form>
-
-
-		
-			
-
-</head>
-
-
-
-			<h2>Directions to the Workshop</h2>
-
-<style>
- #map{
-       height: 400px;
-       width: 50%;
-       a
-     }
-</style>
-
-</head>
-<body>
-
-<h1>Directions to the Workshop</h1>
-
-<div id=“Companymap”></div>
-
-<script>
- function initMap() {
-   var Waterford = {lat: 52.259311, lng: -7.110343};
-   var map = new google.maps.Map(document.getElementById(‘map’), {
-     zoom: 4,
-     center: Waterford
-   });
-   var marker = new google.maps.Marker({
-     position: Waterford,
-     map: map
-   });
- }
-</script>
-<script async defer
-src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ioL-76_dxSNYGxV-FExa_lAiFlLCpp0&callback=initMap“>
-</script>
-
 </div>
 
+    <div=“CompanyMap”>
 
-<style>
-#map{
-      height: 400px;
-      width: 50%;
-      a
-    }
-</style>			
-  
+    <style>
+      #map{
+            height: 400px;
+            width: 50%;
+            a
+          }
+    </style>
 
+    </head>
+    <body>
 
+    <h1>Directions to the Workshop</h1>
+      <p2 class=“p”>My paragraph</p2>
 
+    <div id=“map”></div>
 
+    <script>
+      function initMap() {
+        var Waterford = {lat: 52.259311, lng: -7.110343};
+        var map = new google.maps.Map(document.getElementById(‘map’), {
+          zoom: 4,
+          center: Waterford
+        });
+        var marker = new google.maps.Marker({
+          position: Waterford,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ioL-76_dxSNYGxV-FExa_lAiFlLCpp0&callback=initMap“>
+    </script>
 
+    </div>
 
-
-
-
-
-	
-               
-	
 	                <p>
 			        Wood Bee Designs</br>
 				An Rinn,</br>
