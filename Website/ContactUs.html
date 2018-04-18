@@ -1,3 +1,4 @@
+
 <!--Timothy Bergin
    Form Submission Web Page
    in HTML
@@ -12,6 +13,11 @@
 		<link rel="stylesheet" href="ContactUs.css">
 		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 		<link rel="stylesheet" href="headerfooter.css">
+		<link rel="stylesheet" href="AboutUs.css">
+		<link rel="stylesheet" href="Kitchens.css">
+		<link rel="stylesheet" href="MainPage.css">
+		<
+		      
 		<script src="form.js"></script>
 	       
 	</head>
@@ -105,17 +111,19 @@
 		</form>
 
 
-		<div id="CompanyMap">
+		
 			
 
 </head>
-<body>
+
 
 			<h2>Directions to the Workshop</h2>
 
-			<div id="map"></div>
-
-		<script>
+			
+  
+<div id="Companymap" style="width:400px;height:400px">
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>	
+<script>
   function initMap() {
     var Waterford = {lat: 52.259311, lng: -7.110343};
     var map = new google.maps.Map(document.getElementById('map'), {
