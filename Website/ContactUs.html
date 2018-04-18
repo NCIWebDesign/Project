@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="AboutUs.css">
 		<link rel="stylesheet" href="Kitchens.css">
 		<link rel="stylesheet" href="MainPage.css">
-		<
+		<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>	
 		      
 		<script src="form.js"></script>
 	       
@@ -117,33 +117,67 @@
 </head>
 
 
+
 			<h2>Directions to the Workshop</h2>
 
-			
-  
-<div id="Companymap" style="width:400px;height:400px">
-<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>	
+<style>
+ #map{
+       height: 400px;
+       width: 50%;
+       a
+     }
+</style>
+
+</head>
+<body>
+
+<h1>Directions to the Workshop</h1>
+
+<div id=“Companymap”></div>
+
 <script>
-  function initMap() {
-    var Waterford = {lat: 52.259311, lng: -7.110343};
-    var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 4,
-      center: Waterford
-    });
-    var marker = new google.maps.Marker({
-      position: Waterford,
-      map: map
-    });
-  }
+ function initMap() {
+   var Waterford = {lat: 52.259311, lng: -7.110343};
+   var map = new google.maps.Map(document.getElementById(‘map’), {
+     zoom: 4,
+     center: Waterford
+   });
+   var marker = new google.maps.Marker({
+     position: Waterford,
+     map: map
+   });
+ }
 </script>
 <script async defer
-src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ioL-76_dxSNYGxV-FExa_lAiFlLCpp0&callback=initMap">
+src=“https://maps.googleapis.com/maps/api/js?key=AIzaSyD2ioL-76_dxSNYGxV-FExa_lAiFlLCpp0&callback=initMap“>
 </script>
+
+</div>
+
+
+<style>
+#map{
+      height: 400px;
+      width: 50%;
+      a
+    }
+</style>			
+  
+
+
+
+
+
+
+
+
+
+
 	
                
 	
 	                <p>
-				Wood Bee Designs</br>
+			        Wood Bee Designs</br>
 				An Rinn,</br>
 				Co. Waterford,</br>
 				Ireland.</br>
