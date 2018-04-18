@@ -7,7 +7,7 @@
 
 
 function validateForm() {
-    var x = document.forms["myForm"]["fname"].value.required;
+    var x = document.forms["myForm"]["Name"].value.required;
     if (x == "") {
         alert("Name must be filled out");
         return false;
@@ -15,7 +15,7 @@ function validateForm() {
 } 
 
 function validateForm() {
-    var y = document.forms["myForm"]["femail"].value.required;
+    var y = document.forms["myForm"]["Email"].value.required;
     if (y == "") {
         alert("Email must be filled out");
         return false;
@@ -23,9 +23,9 @@ function validateForm() {
 }  
 
 function validateForm() {
-    var z = document.forms["myForm"]["fphonenumber"].value. required;
+    var z = document.forms["myForm"]["Phonenumber"].value. required;
     if (z == "") {
-        alert("Phone Number must be filled out");
+        alert("Phonenumber must be filled out");
         return false;
     }
 }  
