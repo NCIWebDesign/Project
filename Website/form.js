@@ -1,4 +1,4 @@
-/* Timothy Bergin 
+ /* Timothy Bergin 
    Form Submission Web Page 
    in JavaScript
  
@@ -25,7 +25,7 @@ function validateForm() {
 function validateForm() {
     var z = document.forms["myForm"]["Phonenumber"].value. required;
     if (z == "") {
-        alert("Phonenumber must be filled out");
+        alert("Phone number must be filled out");
         return false;
     }
 }  
